@@ -140,10 +140,12 @@ nav {
 .cover-contain {
   display: flex;
   height: 83vh;
+  overflow: hidden;
 }
 
 .cover-img {
   width: 40%;
+  height: 100%;
   z-index: 1;
 }
 
